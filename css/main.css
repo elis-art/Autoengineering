@@ -1,0 +1,372 @@
+/* ---------- Calibri Font ---------- */
+@font-face {
+  font-family: 'Calibri Light';
+  src: url('../fonts/Calibri-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Calibri-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Calibri-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Calibri-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Calibri-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Calibri-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../fonts/Calibri.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Calibri.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Calibri.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Calibri.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Calibri.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Calibri.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Calibri Bold';
+  src: url('../fonts/Calibri-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Calibri-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Calibri-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Calibri-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Calibri-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Calibri-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* ------ Specification ------ */
+
+body {
+ font-family: 'Calibri', sans-serif;
+  color: #110000;
+  padding: 0;
+  letter-spacing: 0em;
+  margin: 0;
+  font-size: 16px;
+}
+
+div, p, form, input, a, span, button {
+  box-sizing: border-box;
+}
+
+p {
+  padding: 0;
+  margin: -1px;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+	margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Calibri Bold', sans-serif;
+ 
+}
+
+h1 {
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+
+h3 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 0px;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+  letter-spacing: 0em;
+}
+
+a, button, input {
+  transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+textarea, textarea:hover, textarea:focus, textarea:active,
+button, button:hover, button:focus, button:active
+ {
+  outline: none;
+}
+
+.btn {
+  background: #00b29c;
+  width: 363px;
+  padding: 9px 0;
+  margin-top: 6px;
+  border-radius: 0;
+  font-family: 'Calibri Bold', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+}
+
+.btn:hover {
+  background: #2e3e4e;
+  color: #fff;
+}
+.btn:hover:before {
+  left: 150px;
+  transition: .5s ease-in-out;
+ }
+
+ /* ---------- Header ---------- */
+
+ .header {
+ 	padding: 29px 0;
+ 	background: #2e3e4e;
+ }
+
+  /* ---------- Section ---------- */
+
+.section {
+	background: url(../img/bacground.png) no-repeat fixed center top / cover;
+}
+
+.review {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 43px 0 11px;
+	width: 562px;
+}
+
+.info, .partners {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 43px 0 11px;
+}
+
+.review {
+	padding-bottom: 13px;
+}
+
+.review__content, .info__content {
+	margin-left: 30px;
+}
+
+.form textarea {
+	width: 364px;
+	height: 178px;
+	padding-top: 0;
+	background: white;
+	outline: none;
+	-moz-appearance: none;
+	border: 1px solid #dddddd;
+	resize: none;
+	padding: 5px 12px;
+}
+
+.icon {
+	margin: 0 10px;
+}
+
+.review__map {
+	margin-top: 35px;
+}
+
+.info__text {
+	width: 85px;
+	margin: 42px 0 0 20px; 
+}
+
+.info__sum {
+	margin-left: 35px;
+}
+
+.partners {
+	margin-top: 8px;
+}
+
+.slick-prev {
+    display: none;
+}
+
+.partners__content {
+	margin-left: 12px;
+	margin-bottom: 45px;
+}
+
+.partners__item {
+	position: relative;
+	width: 360px;
+	height: 195px;
+}
+
+.partners__info {
+	margin-top: 35%;
+	background: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	padding: 5px 18px;
+	margin-left: 8px;
+}
+
+.partners__info p {
+	font-size: 12px;
+}
+
+.big {
+	background: rgba(255, 255, 255, 0.9);
+}
+
+ /* ---------- Footer ---------- */
+
+  .footer {
+ 	padding: 20px 0;
+ 	background: #2e3e4e;
+ 	color: #717171;
+ 	font-size: 13px;
+    font-family: 'Calibri Light';
+    text-align: center;
+ }
+
+ /* ------ Media Queries ------ */
+
+ /* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+
+	h1 {
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+	.review__comment {
+		flex-direction: column;
+	}
+
+	.review, .info {
+    width: 470px;
+	}
+
+	.info__master {
+		flex-direction: column;
+	}
+
+	.info__text {
+		width: 171px;
+		margin-top: 5px;
+		margin-left: 135px;
+	}
+
+	.review {
+    padding-bottom: 15px;
+	}
+
+	.partners__item {
+		margin-right: 20px; 
+		width: 340px;!
+	}
+
+	.partners__info {
+    margin-top: 30%;
+    margin-left: 50px;
+	}
+
+	.slick-slide img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+.review, .info {
+    width: 100%;
+}
+
+h1 {
+    width: auto;
+}
+
+.review__content, .info__content {
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .review {
+   	margin-bottom: 8px;
+   }
+
+
+.partners__item .slick-slide .slick-current .slick-active{
+	width: 380px;
+}
+
+}
+
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+
+}
+
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.form textarea, .btn {
+    width: 200px;
+	}
+
+	.review__map {
+		flex-direction: column;
+	}
+
+	.review__content, .info__content {
+    width: 200px;
+	}
+
+	.form textarea {
+    line-height: 1.2em;
+	}
+
+	.info__text {
+    width: 170px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+	.info__ru {
+		flex-direction: column;
+	}
+
+	.info__foto {
+		flex-direction: column;
+	}
+
+	.info__foto img {
+	    width: 75%;
+        margin-left: auto;
+    	margin-right: auto;
+	}
+
+	.info__sum {
+    margin-left: 0;
+    margin-right: 18px;
+	}
+
+	.partners__info {
+    margin-top: 20%;
+    margin-left: 70px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
